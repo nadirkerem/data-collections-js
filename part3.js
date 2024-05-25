@@ -24,7 +24,6 @@ array.slice(1, array.length).forEach((rows) => {
   let object = {};
 
   rows.forEach((value, index) => {
-    console.log(value);
     object[keys[index]] = value;
   });
 
